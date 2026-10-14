@@ -1,6 +1,6 @@
 // IMPORTANT: Replace this with your WhatsApp number in international format.
 // Trinidad & Tobago country code is 1-868. Example format: 18681234567 (digits only).
-const WHATSAPP_NUMBER = "1868XXXXXXXX";
+const WHATSAPP_NUMBER = "18682824450";
 const WHATSAPP_MESSAGE = "Hi KZ.Snaps! I'd like to ask about photography or editing.";
 
 document.querySelectorAll(".whatsapp-link").forEach(link => {
