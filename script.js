@@ -5,8 +5,8 @@ const WHATSAPP_MESSAGE = "Hi KZ.Snaps! I'd like to ask about photography or edit
 
 document.querySelectorAll(".whatsapp-link").forEach(link => {
   link.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
-  link.target = "_blank";
-  link.rel = "noopener noreferrer";
+
+
 });
 
 document.getElementById("year").textContent = new Date().getFullYear();
